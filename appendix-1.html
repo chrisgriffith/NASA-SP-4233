@@ -7,6 +7,32 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>“Read You Loud and Clear!”</title>
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    section#acronyms dl {
+      display: grid;
+      grid-template-columns: auto 1fr;
+    }
+
+    section#acronyms dd {
+      margin: 0;
+      margin-left: 3em;
+    }
+
+    section#glossary dt {
+      float: left;
+      clear: left;
+      margin-inline-end: 1ch;
+      margin-block: 0.5rem 0;
+      font-weight: bold;
+    }
+
+    section#glossary dd {
+      margin-left: 0;
+      margin-inline: -0.5em;
+      padding-inline: 1em;
+      padding-block: 0.5rem;
+    }
+  </style>
 </head>
 
 <body>
@@ -68,7 +94,9 @@
         <dt><abbr>AES</abbr></dt>
         <dd>Apollo Extension System</dd>
         <dt><abbr>AFSC</abbr></dt>
-        <dd>Air Force Systems Command AFSCN Air Force Satellite Control Network</dd>
+        <dd>Air Force Systems Command</dd>
+        <dt><abbr>AFSCN</abbr></dt>
+        <dd>Air Force Satellite Control Network</dd>
         <dt><abbr>AGO</abbr></dt>
         <dd>Santiago</dd>
         <dt><abbr>AIS</abbr></dt>
@@ -76,7 +104,9 @@
         <dt><abbr>ALT</abbr></dt>
         <dd>Approach and Landing Test</dd>
         <dt><abbr>CDR</abbr></dt>
-        <dd>Critical Design Review CDSCC Canberra Deep Space Communication Complex</dd>
+        <dd>Critical Design Review</dd>
+        <dt><abbr>CDSCC</abbr></dt>
+        <dt>Canberra Deep Space Communication Complex</dd>
         <dt><abbr>CSIR</abbr></dt>
         <dd>Council for Scientific and Industrial Research</dd>
         <dt><abbr>CSIRO</abbr></dt>
@@ -144,7 +174,9 @@
         <dt><abbr>FY</abbr></dt>
         <dd>fiscal year</dd>
         <dt><abbr>Gbps</abbr></dt>
-        <dd>gigabits per second GDSCC Goldstone Deep Space Communication Complex</dd>
+        <dd>gigabits per second</dd>
+        <dt><abbr>GDSCC</abbr></dt>
+        <dd>Goldstone Deep Space Communication Complex</dd>
         <dt><abbr>GHz</abbr></dt>
         <dd>gigahertz</dd>
         <dt><abbr>GLTN</abbr></dt>
@@ -154,7 +186,9 @@
         <dt><abbr>GN</abbr></dt>
         <dd>Ground Network</dd>
         <dt><abbr>GOES</abbr></dt>
-        <dd>Geostationary Observational Environmental Satellite GRARR Goddard Range And Range Rate</dd>
+        <dd>Geostationary Observational Environmental Satellite</dd>
+        <dt><abbr>GRARR</abbr></dt>
+        <dd>Goddard Range And Range Rate</dd>
         <dt><abbr>GRGT</abbr></dt>
         <dd>Guam Remote Ground Terminal</dd>
         <dt><abbr>GRO</abbr></dt>
@@ -210,7 +244,9 @@
         <dt><abbr>IUS</abbr></dt>
         <dd>Inertial Upper Stage</dd>
         <dt><abbr>JAXA</abbr></dt>
-        <dd>Japan Aerospace Exploration Agency JDMTA Jonathan Dickinson Missile Tracking Annex</dd>
+        <dd>Japan Aerospace Exploration Agency</dd>
+        <dt><abbr>JDMTA</abbr></dt>
+        <dd> Jonathan Dickinson Missile Tracking Annex</dd>
         <dt><abbr>JPL</abbr></dt>
         <dd>Jet Propulsion Laboratory</dd>
         <dt><abbr>JSC</abbr></dt>
@@ -228,7 +264,9 @@
         <dt><abbr>KSAT</abbr></dt>
         <dd>Kongsberg Satellite Services</dd>
         <dt><abbr>KSC</abbr></dt>
-        <dd>Kennedy Space Center LAGEOS Laser Geodynamics Satellite</dd>
+        <dd>Kennedy Space Center</dd>
+        <dt><abbr>LAGEOS</abbr></dt>
+        <dd>Laser Geodynamics Satellite</dd>
         <dt><abbr>laser</abbr></dt>
         <dd>light amplification by stimulated emission of radiation</dd>
         <dt><abbr>LM</abbr></dt>
@@ -238,7 +276,9 @@
         <dt><abbr>LRO</abbr></dt>
         <dd>Lunar Reconnaissance Orbiter</dd>
         <dt><abbr>LRV</abbr></dt>
-        <dd>Lunar Roving Vehicle M&amp;DO Mission and Data Operations</dd>
+        <dd>Lunar Roving Vehicle</dd>
+        <dt><abbr>M&amp;DO</abbr></dt>
+        <dd>Mission and Data Operations</dd>
         <dt><abbr>MA</abbr></dt>
         <dd>Mercury-Atlas</dd>
         <dt><abbr>MA</abbr></dt>
@@ -250,7 +290,9 @@
         <dt><abbr>Mbps</abbr></dt>
         <dd>megabits per second</dd>
         <dt><abbr>MCC</abbr></dt>
-        <dd>Mission Control Center MDSCC Madrid Deep Space Communication Complex</dd>
+        <dd>Mission Control Center</dd>
+        <dt><abbr>MDSCC</abbr></dt>
+        <dd>Madrid Deep Space Communication Complex</dd>
         <dt><abbr>MESA</abbr></dt>
         <dd>Modular Equipment Stowage Assembly</dd>
         <dt><abbr>MFS</abbr></dt>
@@ -262,7 +304,11 @@
         <dt><abbr>MILA</abbr></dt>
         <dd>Merritt Island Launch Annex</dd>
         <dt><abbr>MIT</abbr></dt>
-        <dd>Massachusetts Institute of Technology MOBLAS Mobile Laser Ranging System MOCR Mission Operations Control Room</dd>
+        <dd>Massachusetts Institute of Technology</dd>
+        <dt><abbr>MOBLAS</abbr></dt>
+        <dd>Mobile Laser Ranging System</dd>
+        <dt><abbr>MOCR</abbr></dt>
+        <dd>Mission Operations Control Room</dd>
         <dt><abbr>MOTS</abbr></dt>
         <dd>Minitrack Optical Tracking System</dd>
         <dt><abbr>MRCS</abbr></dt>
@@ -280,7 +326,9 @@
         <dt><abbr>NASA</abbr></dt>
         <dd>National Aeronautics and Space Administration</dd>
         <dt><abbr>NASCOM</abbr></dt>
-        <dd>NASA Communications Network NASDA National Space Development Agency of Japan</dd>
+        <dd>NASA Communications Network</dd>
+        <dt><abbr>NASDA</abbr></dt>
+        <dd>National Space Development Agency of Japan</dd>
         <dt><abbr>NC</abbr></dt>
         <dd>Network Controller</dd>
         <dt><abbr>ND</abbr></dt>
@@ -294,7 +342,9 @@
         <dt><abbr>NOAA</abbr></dt>
         <dd>National Oceanic and Atmospheric Administration</dd>
         <dt><abbr>NOCC</abbr></dt>
-        <dd>Network Operations Control Center NORAD North American Aerospace Defense Command</dd>
+        <dd>Network Operations Control Center</dd>
+        <dt>NORAD</dt>
+        <dd>North American Aerospace Defense Command</dd>
         <dt><abbr>NRD</abbr></dt>
         <dd>Air Force National Range Division</dd>
         <dt><abbr>NRL</abbr></dt>
@@ -322,7 +372,9 @@
         <dt><abbr>OSO</abbr></dt>
         <dd>Office of Space Operations</dd>
         <dt><abbr>OSO</abbr></dt>
-        <dd>Orbiting Solar Observatory OSTDA Office of Space Tracking and Data Acquisition</dd>
+        <dd>Orbiting Solar Observatory</dd>
+        <dt><abbr>OSTDA</abbr></dt>
+        <dd>Office of Space Tracking and Data Acquisition</dd>
         <dt><abbr>OTDA</abbr></dt>
         <dd>Office of Tracking and Data Acquisition</dd>
         <dt><abbr>PAL</abbr></dt>
@@ -378,13 +430,21 @@
         <dt><abbr>SA</abbr></dt>
         <dd>Single Access</dd>
         <dt><abbr>SAO</abbr></dt>
-        <dd>Smithsonian Astrophysical Observatory SATAN Satellite Automatic Tracking Antenna SCAMA Switching, Conferencing And Monitoring Arrangement SCAMP Satellite Command Antenna on Medium Pedestal</dd>
+        <dd>Smithsonian Astrophysical Observatory</dd>
+        <dt><abbr>SATAN</abbr></dt>
+        <dd>Satellite Automatic Tracking Antenna</dd>
+        <dt><abbr>SCAMA</abbr></dt>
+        <dd>Switching, Conferencing And Monitoring Arrangement</dd>
+        <dt><abbr>SCAMP</abbr></dt>
+        <dd>Satellite Command Antenna on Medium Pedestal</dd>
         <dt><abbr>SDK</abbr></dt>
         <dd>Ussuriysk, Russia</dd>
         <dt><abbr>SDO</abbr></dt>
         <dd>Solar Dynamics Observatory</dd>
         <dt><abbr>SEB</abbr></dt>
-        <dd>Source Evaluation Board SECAM Sequential Color with Memory</dd>
+        <dd>Source Evaluation Board</dd>
+        <dt><abbr>SECAM</abbr></dt>
+        <dd>Sequential Color with Memory</dd>
         <dt><abbr>SECO</abbr></dt>
         <dd>sustainer engine cutoff</dd>
         <dt><abbr>SGL</abbr></dt>
@@ -404,7 +464,11 @@
         <dt><abbr>SOMO</abbr></dt>
         <dd>Space Operations Management Office</dd>
         <dt><abbr>SRB</abbr></dt>
-        <dd>Solid Rocket Booster STADAN Satellite Tracking And Data Acquisition Network STADIR Station Director</dd>
+        <dd>Solid Rocket Booster</dd>
+        <dt><abbr>STADAN</abbr></dt>
+        <dd>Satellite Tracking And Data Acquisition Network</dd>
+        <dt><abbr>STADIR</abbr></dt>
+        <dd>Station Director</dd>
         <dt><abbr>STDN</abbr></dt>
         <dd>Spaceflight Tracking and Data Network</dd>
         <dt><abbr>STG</abbr></dt>
@@ -432,9 +496,13 @@
         <dt><abbr>TCS</abbr></dt>
         <dd>Thermal Control System</dd>
         <dt><abbr>TDRS</abbr></dt>
-        <dd>Tracking and Data Relay Satellite TDRSS Tracking and Data Relay Satellite System</dd>
+        <dd>Tracking and Data Relay Satellite</dd>
+        <dt><abbr>TDRSS</abbr></dt>
+        <dd>Tracking and Data Relay Satellite System</dd>
         <dt><abbr>TDSD</abbr></dt>
-        <dd>Tracking and Data Systems Directorate TELOPS Telemetry Online Processing System</dd>
+        <dd>Tracking and Data Systems Directorate</dd>
+        <dt><abbr>TELOPS</abbr></dt>
+        <dd>Telemetry Online Processing System</dd>
         <dt><abbr>TEI</abbr></dt>
         <dd>Trans-Earth Injection</dd>
         <dt><abbr>TIROS</abbr></dt>
@@ -484,16 +552,20 @@
         <dt><abbr>WRE</abbr></dt>
         <dd>Weapons Research Establishment</dd>
         <dt><abbr>WSGT</abbr></dt>
-        <dd>White Sands Ground Terminal WSMR White Sands Missile Range</dd>
+        <dd>White Sands Ground Terminal</dd>
+        <dt>
+          <abb>WSMR</abb>
+        </dt>
+        <dd>White Sands Missile Range</dd>
       </dl>
     </section>
     <section id="glossary">
       <h2>Glossary</h2>
       <dl>
-        <dt>acquisition</dt>
-        <dd>: The process of first finding, either visually or electronically, a satellite or spacecraft of interest so it can then be tracked.</dd>
-        <dt>antenna feed</dt>
-        <dd>: The electronic device at the focal point of an antenna through which electromagnetic wave transmissions are received, amplified, and/or transmitted.</dd>
+        <dt>acquisition:</dt>
+        <dd>The process of first finding, either visually or electronically, a satellite or spacecraft of interest so it can then be tracked.</dd>
+        <dt>antenna feed:</dt>
+        <dd>The electronic device at the focal point of an antenna through which electromagnetic wave transmissions are received, amplified, and/or transmitted.</dd>
         <dt>apogee:</dt>
         <dd>The high point in a trajectory.</dd>
         <dt>array:</dt>
