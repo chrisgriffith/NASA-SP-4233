@@ -11,6 +11,19 @@
     main ul li {
       list-style-type: none;
     }
+
+    figure table td:nth-child(3) {
+      white-space: nowrap;
+
+    }
+
+    figure table td:nth-child(n+4) {
+      text-align: center;
+    }
+
+    figure.table table tbody th[colspan] {
+      font-weight: bold;
+    }
   </style>
 </head>
 
@@ -335,15 +348,15 @@
           <caption>Table 3-1: The Mercury Space Flight Network (Three Orbit Configuration)<sup><a id="r57-507" href="#fn57" role="doc-noteref">57</a></sup></caption>
           <thead>
             <tr>
-              <td>Station</td>
-              <td>Abbreviation</td>
-              <td>Location</td>
-              <td>S-Band Radar</td>
-              <td>C-Band Radar</td>
-              <td>Acquisition*</td>
-              <td>Telemetry</td>
-              <td>Command</td>
-              <td>CAPCOM**</td>
+              <th>Station</th>
+              <th>Abbreviation</th>
+              <th>Location</th>
+              <th>S-Band Radar</th>
+              <th>C-Band Radar</th>
+              <th>Acquisition*</th>
+              <th>Telemetry</th>
+              <th>Command</th>
+              <th>CAPCOM<sup>**</sup></th>
             </tr>
           </thead>
           <tbody>
