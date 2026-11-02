@@ -8,17 +8,24 @@
   <title>“Read You Loud and Clear!”</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
-    section#acronyms dl {
+    section dl {
       display: grid;
-      grid-template-columns: auto 1fr;
+      grid-template-columns: max-content auto;
+      gap: 0 20px;
     }
 
-    section#acronyms dd {
+    section dt {
+      grid-column-start: 1;
+      margin-inline-start: 2em;
+    }
+
+    section dd {
+      grid-column-start: 2;
       margin: 0;
-      margin-left: 3em;
     }
 
-    section#glossary dt {
+
+    /* section#glossary dt {
       float: left;
       clear: left;
       margin-inline-end: 1ch;
@@ -31,7 +38,7 @@
       margin-inline: -0.5em;
       padding-inline: 1em;
       padding-block: 0.5rem;
-    }
+    } */
   </style>
 </head>
 
@@ -106,7 +113,7 @@
         <dt><abbr>CDR</abbr></dt>
         <dd>Critical Design Review</dd>
         <dt><abbr>CDSCC</abbr></dt>
-        <dt>Canberra Deep Space Communication Complex</dd>
+        <dd>Canberra Deep Space Communication Complex</dd>
         <dt><abbr>CSIR</abbr></dt>
         <dd>Council for Scientific and Industrial Research</dd>
         <dt><abbr>CSIRO</abbr></dt>
